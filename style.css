@@ -1,0 +1,19 @@
+header{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+li a{
+    color: black;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
