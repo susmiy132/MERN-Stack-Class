@@ -13,6 +13,11 @@ header ul{
 li a{
     color: black;
 }
+
+img{
+    width: 200px;
+    height: 200px;
+}
 header a{
     text-decoration: none;
     color: black;
