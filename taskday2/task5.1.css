@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+}
+
+.blog-post{
+    border: 1px solid #999;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f5f5f5;
+}
+
+.blog-post:last-of-type {
+    background-color: #ffeaa7;
+}
