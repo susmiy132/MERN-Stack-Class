@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+
+h2:first-of-type {
+  background-color: #ffeaa7;
+  text-decoration: underline;
+}
+
+
+h2:nth-of-type(4){
+    background-color: #ffeaa7;
+}
+
+img[src="https://placehold.co/500x300"] {
+  width: 150px;
+  height: 150px;
+}
