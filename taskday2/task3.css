@@ -1,0 +1,7 @@
+body{
+    background-color: white;
+}
+
+h2:first-of-type {
+  background-color: #ffeaa7;
+}
