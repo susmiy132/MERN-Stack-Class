@@ -5,3 +5,9 @@ body{
 h2:first-of-type {
   background-color: #ffeaa7;
 }
+
+span:first-of-type{
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: #ffeaa7;
+}
