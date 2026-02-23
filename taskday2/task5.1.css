@@ -9,6 +9,6 @@ body{
     background-color: #f5f5f5;
 }
 
-.blog-post:last-of-type {
+div.blog-post-featured {
     background-color: #ffeaa7;
 }
