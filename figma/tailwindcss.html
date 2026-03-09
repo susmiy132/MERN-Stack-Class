@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hekto</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="bg-white">
+
+    <!-- Top Navbar -->
+    <div class="bg-purple-700 text-white text-sm">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center py-2 gap-2">
+
+            <!-- Left -->
+            <div class="flex flex-col md:flex-row gap-4 items-center">
+
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+                    </svg>
+                    <span>mhhasanul@gmail.com</span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 2a9 9 0 0 1 9 9" />
+                    </svg>
+                    <span>+977 98345034534</span>
+                </div>
+
+            </div>
+
+            <!-- Right -->
+            <div class="flex items-center gap-6">
+
+                <div class="flex items-center gap-2 cursor-pointer">
+                    <span>Login</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+
+                <div class="cursor-pointer">
+                    🛒
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Main Navbar -->
+    <nav class="max-w-7xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
+
+        <!-- Logo -->
+        <h1 class="text-2xl font-bold text-purple-700">Hekto</h1>
+
+        <!-- Mobile Menu Button -->
+        <button id="menu-icon" class="md:hidden text-2xl">
+            ☰
+        </button>
+
+        <!-- Navigation -->
+        <ul id="nav-links" class="hidden w-full md:flex md:w-auto gap-6 mt-4 md:mt-0 font-medium">
+
+            <li class="hover:text-purple-600 cursor-pointer">Home</li>
+            <li class="hover:text-purple-600 cursor-pointer">Pages</li>
+            <li class="hover:text-purple-600 cursor-pointer">Products</li>
+
+        </ul>
+
+        <!-- Search -->
+        <form class="flex w-full md:w-auto mt-4 md:mt-0">
+
+            <input type="text" placeholder="Search" class="border border-gray-300 px-3 py-1 outline-none" />
+
+            <button class="bg-pink-500 px-3 text-white">
+                🔍
+            </button>
+
+        </form>
+
+    </nav>
+
+    <!-- Banner -->
+    <section class="bg-gray-100 h-52 flex items-center justify-center text-xl font-semibold">
+        Banner Section
+    </section>
+
+    <!-- Latest Products -->
+    <section class="max-w-7xl mx-auto px-4 py-10">
+
+        <h2 class="text-2xl font-bold mb-6">Latest Products</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            <div class="border p-4 rounded shadow">
+                <h3 class="font-semibold">Product 1</h3>
+                <p class="text-gray-500">$100</p>
+            </div>
+
+            <div class="border p-4 rounded shadow">
+                <h3 class="font-semibold">Product 2</h3>
+                <p class="text-gray-500">$120</p>
+            </div>
+
+            <div class="border p-4 rounded shadow">
+                <h3 class="font-semibold">Product 3</h3>
+                <p class="text-gray-500">$140</p>
+            </div>
+
+            <div class="border p-4 rounded shadow">
+                <h3 class="font-semibold">Product 4</h3>
+                <p class="text-gray-500">$160</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+
+        const menu = document.getElementById("menu-icon");
+        const navLinks = document.getElementById("nav-links");
+
+        menu.addEventListener("click", () => {
+            navLinks.classList.toggle("hidden");
+        });
+
+    </script>
+
+</body>
+
+</html>
